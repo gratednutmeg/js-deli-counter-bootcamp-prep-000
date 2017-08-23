@@ -6,8 +6,10 @@ function takeANumber(katzDeliLine,name) {
   // console.log(position);
   // console.log(katzDeli);
   // return `Welcome, ${name}. You are number ${position} in line.`;
+  console.log(katzDeli)
   return katzDeli;
 }
+
 
 function nowServing() {
   if (katzDeli.length !== 0) {
