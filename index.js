@@ -30,4 +30,4 @@ function currentLine(line) {
   return `The line is currently:${current.toString()}`;
 }
 
-currentLine([]);
+currentLine(['jane']);
