@@ -1,4 +1,4 @@
-var katzDeli = ['jane'];
+var katzDeli = [];
 
 function takeANumber(katzDeliLine,name) {
   katzDeli.push(name);
@@ -6,9 +6,6 @@ function takeANumber(katzDeliLine,name) {
   // return `Welcome, ${name}. You are number ${position} in line.`;
   return `Welcome, ${name}. You are number ${katzDeli.length}`;
 }
-
-takeANumber(katzDeli,'alice');
-console.log(`new katz deli: ${katzDeli}`);
 
 function nowServing() {
   if (katzDeli.length !== 0) {
