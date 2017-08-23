@@ -14,10 +14,13 @@ function nowServing(katzDeliLine) {
 }
 
 function currentLine(line) {
-  var currentLine = []
-  if (line.length !== 0) {
+  var currentLine = [];
 
+  for (let i = 0; i < line.length; i++) {
+    if (line.length !== 0) {
+      currentLine.push(`${}`)
+    }
   }
-  console.log(The line is currently: ${currentLine.toString()})
+  console.log(The line is currently: ${currentLine.toString()});
   return `The line is currently: ${currentLine.toString()}`;
 }
