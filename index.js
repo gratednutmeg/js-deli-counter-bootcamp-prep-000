@@ -1,6 +1,6 @@
 var katzDeli = [];
 
-function takeANumber(katzDeli,name) {
+function takeANumber(katzDeliLine,name) {
   katzDeli.push(name);
   var position = katzDeli.length;
   console.log(position);
@@ -17,4 +17,3 @@ function nowServing() {
     return "There is nobody waiting to be served!";
   }
 }
-
