@@ -22,7 +22,7 @@ function currentLine(line) {
       console.console.log(current);
       return current;
     } else {
-      currentLine.push(` ${i + 1}. ${line[i]}`);
+      current.push(` ${i + 1}. ${line[i]}`);
     }
   }
 
