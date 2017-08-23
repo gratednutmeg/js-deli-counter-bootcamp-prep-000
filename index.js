@@ -1,7 +1,7 @@
 var deli = [];
 
 function takeANumber(katzDeliLine,name) {
-  katzDeli.push(name);
+  deli.push(name);
   var position = katzDeli.length;
   console.log(position);
   console.log(katzDeli);
