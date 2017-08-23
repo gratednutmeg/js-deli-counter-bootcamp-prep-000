@@ -6,7 +6,7 @@ function takeANumber(katzDeliLine,name) {
 }
 
 katzDeli = ['Janet','Cato','Velvet','Jenn'];
-takeANumber(deliLine,'Velvet');
+takeANumber(katzDeli,'Velvet');
 
 function nowServing() {
   if (katzDeli.length !== 0) {
