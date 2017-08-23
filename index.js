@@ -2,9 +2,9 @@ var deli = [];
 
 function takeANumber(katzDeliLine,name) {
   deli.push(name);
-  var position = katzDeli.length;
+  var position = deli.length;
   console.log(position);
-  console.log(katzDeli);
+  console.log(deli);
   return `Welcome, ${name}. You are number ${position} in line.`;
 }
 
