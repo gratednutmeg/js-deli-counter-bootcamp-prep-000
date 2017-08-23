@@ -5,7 +5,7 @@ function takeANumber(katzDeliLine,name) {
   return position;
 }
 
-const deliLine = ['Janet','Cato','Velvet','Jenn'];
+katzDeli = ['Janet','Cato','Velvet','Jenn'];
 takeANumber(deliLine,'Velvet');
 
 function nowServing()
