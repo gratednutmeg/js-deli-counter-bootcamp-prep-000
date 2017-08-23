@@ -18,5 +18,6 @@ function currentLine(line) {
   if (line.length !== 0) {
 
   }
+  console.log(The line is currently: ${currentLine.toString()})
   return `The line is currently: ${currentLine.toString()}`;
 }
