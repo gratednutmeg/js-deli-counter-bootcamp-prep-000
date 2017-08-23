@@ -8,4 +8,11 @@ function takeANumber(katzDeliLine,name) {
 katzDeli = ['Janet','Cato','Velvet','Jenn'];
 takeANumber(deliLine,'Velvet');
 
-function nowServing()
+function nowServing() {
+  if (katzDeli.length !== 0) {
+    
+  } else {
+    console.log("The line is currently empty");
+    return "There is nobody waiting to be served!";
+  }
+}
