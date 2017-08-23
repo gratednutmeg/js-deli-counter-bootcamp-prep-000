@@ -10,7 +10,7 @@ takeANumber(deliLine,'Velvet');
 
 function nowServing() {
   if (katzDeli.length !== 0) {
-    
+    return array.shift();
   } else {
     console.log("The line is currently empty");
     return "There is nobody waiting to be served!";
