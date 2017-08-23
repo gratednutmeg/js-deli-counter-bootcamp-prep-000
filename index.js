@@ -10,6 +10,8 @@ function takeANumber(katzDeliLine,name) {
   return katzDeli;
 }
 
+takeANumber(katzDeli)
+
 
 function nowServing() {
   if (katzDeli.length !== 0) {
