@@ -26,7 +26,7 @@ function currentLine(line) {
     }
   }
 
-  return `The line is currently:${currentLine.toString()}`;
+  return `The line is currently:${current.toString()}`;
 }
 
 currentLine([]);
