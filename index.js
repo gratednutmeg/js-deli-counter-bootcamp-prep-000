@@ -14,8 +14,9 @@ function nowServing(katzDeliLine) {
 }
 
 function currentLine(line) {
-  var currentLine = ""
+  var currentLine = []
   if (line.length !== 0) {
-    
+
   }
+  return `The line is currently: ${currentLine.toString()}`
 }
