@@ -11,7 +11,7 @@ function takeANumber(katzDeliLine,name) {
 }
 
 takeANumber(katzDeli,'alice');
-
+console.log(`new katz deli: ${katzDeli}`)
 
 function nowServing() {
   if (katzDeli.length !== 0) {
