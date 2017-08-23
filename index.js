@@ -20,9 +20,9 @@ function currentLine(line) {
     if (line.length !== 0) {
       currentLine.push(` ${i + 1}. ${line[i]}`);
     } else {
-      return "The line is currently empty."
+      return "The line is currently empty.";
     }
   }
-  console.log(`The line is currently: ${currentLine.toString()}`);
+
   return `The line is currently:${currentLine.toString()}`;
 }
