@@ -1,5 +1,3 @@
-var katzDeli = [];
-
 function takeANumber(katzDeliLine,name) {
   katzDeli.push(name);
   var position = katzDeli.length;
@@ -7,8 +5,6 @@ function takeANumber(katzDeliLine,name) {
   console.log(katzDeli);
   return `Welcome, ${name}. You are number ${position} in line.`;
 }
-
-takeANumber(katzDeli,'jane');
 
 function nowServing() {
   if (katzDeli.length !== 0) {
