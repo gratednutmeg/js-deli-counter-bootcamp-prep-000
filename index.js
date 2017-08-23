@@ -10,7 +10,7 @@ function takeANumber(katzDeliLine,name) {
   return katzDeli;
 }
 
-takeANumber(katzDeli)
+takeANumber(katzDeli,'alice');
 
 
 function nowServing() {
