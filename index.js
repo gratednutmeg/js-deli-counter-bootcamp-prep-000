@@ -29,3 +29,5 @@ function currentLine(line) {
   console.log(`The line is currently:${current.toString()}`);
   return `The line is currently:${current.toString()}`;
 }
+
+currentLine([]);
