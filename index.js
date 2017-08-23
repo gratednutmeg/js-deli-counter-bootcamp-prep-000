@@ -18,7 +18,7 @@ function currentLine(line) {
 
   for (let i = 0; i < line.length; i++) {
     if (line.length !== 0) {
-      currentLine.push(`${}. ${}`)
+      currentLine.push(`${}. ${line[i]}`)
     }
   }
   console.log(The line is currently: ${currentLine.toString()});
