@@ -25,7 +25,7 @@ function currentLine(line) {
       current.push(` ${i + 1}. ${line[i]}`);
     }
   }
-
+  console.log(`The line is currently:${current.toString()}`);
   return `The line is currently:${current.toString()}`;
 }
 
