@@ -2,10 +2,11 @@ var katzDeli = [];
 
 function takeANumber(katzDeliLine,name) {
   katzDeli.push(name);
-  var position = katzDeli.length;
-  console.log(position);
-  console.log(katzDeli);
-  return `Welcome, ${name}. You are number ${position} in line.`;
+  // var position = katzDeli.length;
+  // console.log(position);
+  // console.log(katzDeli);
+  // return `Welcome, ${name}. You are number ${position} in line.`;
+  return katzDeli;
 }
 
 function nowServing() {
