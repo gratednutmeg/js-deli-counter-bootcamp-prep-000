@@ -6,7 +6,7 @@ function takeANumber(katzDeliLine,name) {
   console.log(position);
   console.log(katzDeli);
   // return `Welcome, ${name}. You are number ${position} in line.`;
-  return katzDeli;
+  return `Welcome, ${name}. You are number ${katzDeli.length}`;
 }
 
 takeANumber(katzDeli,'alice');
