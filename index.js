@@ -7,9 +7,6 @@ function takeANumber(katzDeliLine,name) {
   return `Welcome, ${name}. You are number ${position} in line.`;
 }
 
-katzDeli = ['Janet','Cato','Velvet','Jenn'];
-takeANumber(katzDeli,'Velvet');
-
 function nowServing() {
   if (katzDeli.length !== 0) {
     console.log(katzDeli[0]);
