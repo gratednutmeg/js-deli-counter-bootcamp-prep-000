@@ -1,5 +1,5 @@
 function takeANumber(katzDeliLine,name) {
-  var position = array.indexOf(name) + 1;
+  var position = katzDeliLine.indexOf(name) + 1;
   console.log(position);
   return position;
 }
